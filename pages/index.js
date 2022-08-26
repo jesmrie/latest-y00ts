@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function Home(props) {
   const y00tlisted = Object.entries(props.y00tlisted);
-  const [y00tlistedCircles, sety00tlistedCircles] = useState("Loading...");
+  const [y00tlistedCircles, sety00tlistedCircles] = useState("Loading cool people...");
 
   useEffect(() => {
     if (y00tlisted.length > 1) {
@@ -63,6 +63,11 @@ export default function Home(props) {
         <div>
           <a href="https://www.y00ts.com/scholarship">
             <button className={styles.button}>Apply as Scholar</button>
+          </a>
+        </div>
+        <div>
+          <a href="https://twitter.com/y00tsnft">
+            <div className={styles.buttonReverse}>Follow @y00tsNFT</div>
           </a>
         </div>
         <div className={styles.footer}>

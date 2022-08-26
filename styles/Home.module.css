@@ -61,6 +61,7 @@
 }
 
 .button {
+  font-family: 'Lato', sans-serif;
   display: inline-block;
   border: none;
   border-radius: 10px;
@@ -70,12 +71,24 @@
   color: white;
   background-color: #2044FF;
   transition: 250ms ease-in-out;
-  padding: 15px 20px;
+  padding: 15px 25px;
   cursor: pointer;
+}
+
+.buttonReverse {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  padding: 1rem 2rem;
+  color: #2044FF;
+  transition: 250ms ease-in-out;
 }
 
 .button:hover {
   background-color: #1434DB;
+}
+
+.buttonReverse:hover {
+  color: #1434DB;
 }
 
 .footer p {
