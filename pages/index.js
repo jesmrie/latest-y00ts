@@ -37,7 +37,7 @@ export default function Home(props) {
         <title>Latest y00tlisted</title>
         <meta
           name="description"
-          content="100 coolest people recently added to the community"
+          content="A hundred cool people recently added to the y00ts community"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
