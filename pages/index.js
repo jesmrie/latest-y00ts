@@ -37,7 +37,7 @@ export default function Home(props) {
         <title>Latest y00tlisted</title>
         <meta
           name="description"
-          content="A hundred cool people recently added to the y00ts community"
+          content="Some of the coolest people recently added to the y00ts community"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -53,7 +53,7 @@ export default function Home(props) {
         </div>
         <h1>Latest y00ts Scholars</h1>
         <p>
-          A hundred cool people recently <br /> added to the community.
+          Some of the coolest people recently<br />added to the community.
         </p>
         <div className={styles.circlesContainer}>
           <div className={styles.circlesRow}>
