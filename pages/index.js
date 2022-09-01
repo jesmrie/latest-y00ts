@@ -84,13 +84,13 @@ export async function getServerSideProps() {
   const response = await fetchTweets();
   const users = response.includes.users;
   // const errors = response.errors;
-  const twitterUsername = `y00tsNFT`;
+  const exceptions = ['y00tsNFT', 'y00tlist', 'frankdegods', 'DeGodsNFT', 'y00tIist', 'yOOtIist']; // hot fix for retweets
 
   const y00tlisted = users
     .map((user) => {
       const { username, profile_image_url } = user;
 
-      if (username !== twitterUsername) {
+      if (!exceptions.includes(username)) {
         return {
           username,
           profile_image_url,
