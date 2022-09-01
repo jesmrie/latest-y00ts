@@ -61,8 +61,8 @@ export default function Home(props) {
           </div>
         </div>
         <div>
-          <a href="https://www.y00ts.com/scholarship">
-            <button className={styles.button}>Apply as Scholar</button>
+          <a href="https://twitter.com/y00tlist">
+            <button className={styles.button}>See More Scholars</button>
           </a>
         </div>
         <div>
